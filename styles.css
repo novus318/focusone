@@ -457,6 +457,7 @@ body:has(#contact:target) .nav-link[href="#contact"]::after {
 .hero-visual {
   position: relative;
   width: 100%;
+  min-width: 0;
   min-height: 420px;
   aspect-ratio: 1 / 1.03;
 }
