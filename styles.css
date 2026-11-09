@@ -349,7 +349,7 @@ body:has(#contact:target) .nav-link[href="#contact"]::after {
 }
 
 .text-gradient {
-  background: linear-gradient(100deg, #2563EB 0%, #3B82F6 46%, #60A5FA 100%);
+  background: linear-gradient(100deg, #1D4ED8 0%, #2563EB 45%, #3B82F6 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -1168,6 +1168,28 @@ body:has(#contact:target) .nav-link[href="#contact"]::after {
   color: var(--slate);
 }
 
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  margin-top: 14px;
+  font-size: 13px;
+}
+
+.footer-contact a {
+  color: var(--slate-dark);
+  transition: color 0.2s var(--ease);
+}
+
+.footer-contact a:hover {
+  color: var(--blue);
+}
+
+.footer-contact span {
+  color: #CBD5E1;
+}
+
 .footer-services {
   display: flex;
   flex-direction: column;
@@ -1684,6 +1706,10 @@ body:has(#contact:target) .nav-link[href="#contact"]::after {
   .contact-card {
     padding: 26px 20px;
     border-radius: 22px;
+  }
+
+  .contact-copy h2 {
+    font-size: 1.8rem;
   }
 
   .footer-services p {
